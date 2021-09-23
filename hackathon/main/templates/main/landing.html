@@ -113,20 +113,22 @@
 										<h1 class="vlt-large-heading has-white-color">I’m Product<br>Designer</h1>
 										<div class="vlt-gap-40"></div>
 										<div class="row">
-											<div class="col-auto">
-												<!--Counter Up Small-->
-												<div class="vlt-counter-up-small" data-ending-number="12" data-animation-speed="1000" data-delimiter=""><span class="counter">0</span>
-													<h6 class="vlt-display-1">Completed<br>projects</h6>
+											<div id="counter">												
+												<div class="vlt-counter-up-small" data-ending-number="12" data-animation-speed="1000" data-delimiter=""><span id="demo">0</span>
+													<h6 class="vlt-display-1">To Go</h6>
 												</div>
 												<div class="vlt-gap-20--sm"></div>
 											</div>
+                                            <!--
 											<div class="col-auto">
-												<!--Counter Up Small-->
+												Counter Up Small
 												<div class="vlt-counter-up-small" data-ending-number="18" data-animation-speed="1000" data-delimiter=""><span class="counter">0</span>
 													<h6 class="vlt-display-1">Sutisfied<br>customers</h6>
 												</div>
-											</div>
-										</div>
+											</div> 
+										-->
+ 										</div>
+										
 										<div class="vlt-gap-40"></div><a class="vlt-link has-white-color" href="#">Watch Resume</a>
 									</div>
 								</div>
@@ -952,6 +954,7 @@
 	<script src="{% static 'main/scripts/vlt-plugins.min.js'%}"></script>
 	<script src="{% static 'main/scripts/vlt-helpers.js'%}"></script> 
 	<script src="{% static 'main/scripts/vlt-controllers.min.js'%}"></script>
+	<script src="{%static 'main/scripts/count.js'%}"></script>
 </body>
 
 </html>

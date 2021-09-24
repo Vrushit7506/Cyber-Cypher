@@ -22,6 +22,9 @@
 	<!--Custom-->
 	<link rel="stylesheet" href="{%static 'main/css/custom.css'%}">
 
+	<link rel="stylesheet" href="{%static 'main/css/howto.css'%}">
+	
+
 </head>
 
 <body class=" animsition">
@@ -113,20 +116,28 @@
 										<h1 class="vlt-large-heading has-white-color">I’m Product<br>Designer</h1>
 										<div class="vlt-gap-40"></div>
 										<div class="row">
-											<div class="col-auto">
-												<!--Counter Up Small-->
-												<div class="vlt-counter-up-small" data-ending-number="12" data-animation-speed="1000" data-delimiter=""><span class="counter">0</span>
-													<h6 class="vlt-display-1">Completed<br>projects</h6>
+											<div id="counter">
+
+
+
+
+
+												
+												<div class="vlt-counter-up-small" data-ending-number="12" data-animation-speed="1000" data-delimiter=""><span id="demo">0</span>
+													<h6 class="vlt-display-1">To Go</h6>
 												</div>
 												<div class="vlt-gap-20--sm"></div>
 											</div>
+                                            <!--
 											<div class="col-auto">
-												<!--Counter Up Small-->
+												Counter Up Small
 												<div class="vlt-counter-up-small" data-ending-number="18" data-animation-speed="1000" data-delimiter=""><span class="counter">0</span>
 													<h6 class="vlt-display-1">Sutisfied<br>customers</h6>
 												</div>
-											</div>
-										</div>
+											</div> 
+										-->
+ 										</div>
+										
 										<div class="vlt-gap-40"></div><a class="vlt-link has-white-color" href="#">Watch Resume</a>
 									</div>
 								</div>
@@ -237,18 +248,53 @@
 										<div class="d-block d-md-flex align-items-center justify-content-between">
 											<h1 class="has-white-color">Experience</h1>
 											<div class="vlt-gap-30--sm"></div>
-											<div class="vlt-timeline-slider-controls"><span class="prev">🡐</span><span class="pagination"></span><span class="next">🡒</span></div>
+											<!--<div class="vlt-timeline-slider-controls"><span class="prev">🡐</span><span class="pagination"></span><span class="next">🡒</span></div>-->
 										</div>
 									</div>
 									<div class="vlt-gap-50"></div>
 									<!--Animated Block-->
-									<div class="vlt-animated-block" style="animation-delay:100ms; animation-duration:700ms;">
-										<!--Timeline Slider-->
+									<section id="details" class="details">
+										<div class="container">
+										<div class="row content">
+										<div class="col-md-4" data-aos="fade-right">
+										<img src="{%static 'main/img/HowToApply.jpeg'%}" class="img-fluid" alt="">
+										</div>
+										<div class="col-md-8 pt-4" data-aos="fade-up">
+										<h3>How to Apply </h3>
+										<p class="fst-italic">
+										Round 1: SUBMIT YOUR APPROACH
+										</p>
+										<ul>
+										<li><i class="bi bi-check"></i> In this round, you will be expected to submit your approach in the given standard format for the problem statement which you will also receive in your mail right after you register your team.</li>
+										</ul>
+										<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+										<div class="text-center text-lg-start">
+										<a href="https://docs.google.com/document/d/1ij9znDXV-PiXC4_Z_Tr3ML2xLmBk-gZ5ee1k69Q3U-c/edit" class="btn-get-started scrollto">Problem Statement</a>
+										</div>
+										<div class="text-center text-lg-start">
+										<a href="https://docs.google.com/presentation/d/1raln_p_QiqdoANoYk1Soxgtk8ITBh_HY/edit#slide=id.p1" class="btn-get-started scrollto">Submission Format</a>
+										</div>
+										</div>
+										<p class="fst-italic" style="margin-top: 50px;">
+										Round 2: THE PROTOTYPE DEMONSTRATION
+										</p>
+										<ul>
+										<li><i class="bi bi-check"></i> In the prototype demonstration, you will have to show your working prototype.</li>
+										<li><i class="bi bi-check"></i> The jury members will be evaluating, judging and giving feedback during the prototype demonstration</li>
+										<li><i class="bi bi-check"></i> All other details will be mailed directly to the qualifying teams</li>
+										<li><i class="bi bi-check"></i> 10+5 minutes will be given to each team. 10 minutes for Prototype demonstration and 5 minutes for QnA session.</li>
+										</ul>
+										</div>
+										</div>
+										</div>
+										</section>
+									<!--<div class="vlt-animated-block" style="animation-delay:100ms; animation-duration:700ms;">  
+										Timeline Slider
 										<div class="vlt-timeline-slider">
 											<div class="swiper-container">
 												<div class="swiper-wrapper">
 													<div>
-														<!--Timeline Slider Item-->
+														
 														<div class="vlt-timeline-item">
 															<div class="row">
 																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2010-2012</span>
@@ -261,7 +307,7 @@
 																</div>
 															</div>
 														</div>
-														<!--Timeline Slider Item-->
+														
 														<div class="vlt-timeline-item">
 															<div class="row">
 																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2012-2016</span>
@@ -274,7 +320,7 @@
 																</div>
 															</div>
 														</div>
-														<!--Timeline Slider Item-->
+														
 														<div class="vlt-timeline-item">
 															<div class="row">
 																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2016-2019</span>
@@ -289,7 +335,7 @@
 														</div>
 													</div>
 													<div>
-														<!--Timeline Slider Item-->
+														
 														<div class="vlt-timeline-item">
 															<div class="row">
 																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2010-2012</span>
@@ -302,7 +348,7 @@
 																</div>
 															</div>
 														</div>
-														<!--Timeline Slider Item-->
+														
 														<div class="vlt-timeline-item">
 															<div class="row">
 																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2012-2016</span>
@@ -315,7 +361,7 @@
 																</div>
 															</div>
 														</div>
-														<!--Timeline Slider Item-->
+														
 														<div class="vlt-timeline-item">
 															<div class="row">
 																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2016-2019</span>
@@ -330,7 +376,7 @@
 														</div>
 													</div>
 													<div>
-														<!--Timeline Slider Item-->
+														
 														<div class="vlt-timeline-item">
 															<div class="row">
 																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2010-2012</span>
@@ -343,7 +389,7 @@
 																</div>
 															</div>
 														</div>
-														<!--Timeline Slider Item-->
+													
 														<div class="vlt-timeline-item">
 															<div class="row">
 																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2012-2016</span>
@@ -356,7 +402,7 @@
 																</div>
 															</div>
 														</div>
-														<!--Timeline Slider Item-->
+													
 														<div class="vlt-timeline-item">
 															<div class="row">
 																<div class="col-sm-12 col-md-3"><span class="vlt-timeline-item__year">2016-2019</span>
@@ -373,7 +419,7 @@
 												</div>
 											</div>
 										</div>
-									</div>
+									</div>-->
 									<div class="vlt-gap-50"></div>
 									<!--Animated Block-->
 									<div class="vlt-animated-block" style="animation-delay:200ms; animation-duration:700ms;">
@@ -455,10 +501,11 @@
 			</div>
 			<!--Portfolio-->
 			<!--Section-->
-			<div class="vlt-section pp-scrollable" data-anchor="Portfolio" data-brightness="dark">
+
+		<!--	<div class="vlt-section pp-scrollable" data-anchor="Portfolio" data-brightness="dark">
 				<div class="vlt-section__vertical-align">
 					<div class="vlt-section__content">
-						<!--Ken Burn Effect-->
+						Ken Burn Effect
 						<div class="vlt-section__ken-burn-background"><img src="{%static 'main/img/attachment-03.jpg' %}" alt=""></div>
 						<div class="vlt-project-showcase-slider d-block d-lg-none">
 							<div class="container">
@@ -572,7 +619,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>-->
 			<!--Awards-->
 			<!--Section-->
 			<div class="vlt-section pp-scrollable" data-anchor="Awards" data-brightness="light">
@@ -952,6 +999,7 @@
 	<script src="{% static 'main/scripts/vlt-plugins.min.js'%}"></script>
 	<script src="{% static 'main/scripts/vlt-helpers.js'%}"></script> 
 	<script src="{% static 'main/scripts/vlt-controllers.min.js'%}"></script>
+	<script src="{%static 'main/scripts/count.js'%}"></script>
 </body>
 
 </html>
